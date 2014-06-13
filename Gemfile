@@ -6,8 +6,15 @@ gem 'rails', '4.1.1'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 
+#to make fake accounts
+gem 'faker', '1.1.2'
+
 #to make password into a password hash
 gem 'bcrypt-ruby', '3.1.2'
+
+#to make pagination
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
